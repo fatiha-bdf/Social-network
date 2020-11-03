@@ -1,0 +1,258 @@
+body {
+  font-family: 'open-sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+
+}
+
+img{
+  width: 100%;
+}
+
+.container {
+  margin: auto;
+}
+
+.primary-text{
+  color: rgb(82, 240, 187);
+}
+
+#main-header{
+  border-bottom: 1px solid  rgb(82, 240, 187);
+}
+
+
+#navbar {
+  text-transform:uppercase;
+}
+
+#navbar li {
+  display: inline;
+  padding-right: 20px;
+  list-style: none;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #888;
+}
+
+#navbar li.curent a, #navbar a:hover{
+  color: rgb(82, 240, 187);
+  border-bottom: 3px solid rgb(82, 240, 187);
+  padding-bottom: 3px;
+}
+
+
+/* ################## shwocase ################################################################################################################## */
+
+
+#showcase {
+  background: url('../img/cam2.jpeg')  center center;
+  /* border-bottom: 1px solid rgb(82, 240, 187); */
+  /* margin-bottom: 30px; */
+}
+
+#showcase .row {
+  height: 1000px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+showcase p {
+  margin: 0;
+  color: #ccc;
+}
+
+#showcase .showcase-content {
+  background: #333;
+  color: white;
+  border-radius: 90px;
+  padding: 30px;
+  opacity: 0.9;
+}
+
+/*  #############  media queries  ###########################################################################*/
+@media(max-width:800px) {
+  #showcase h1 {
+    font-size: 30px;
+  }
+}
+
+@media(max-width:500px) {
+  #showcase .showcase-content {
+    padding: 40px 10px;
+  }
+}
+
+@media(max-width:400px) {
+  #showcase h1 {
+    font-size: 25px;
+  }
+}
+
+/* ################## shwocase_login ################################################################################################################## */
+
+#showcaselog {
+  background-color: white;
+  /* border-bottom: 1px solid rgb(82, 240, 187); */
+  /* margin-bottom: 30px; */
+}
+
+#showcaselog .row {
+  height: 1000px;
+}
+
+/* ################## compagny ################################################################################################################## */
+
+#company {
+  background: #333;
+  padding: 10px 0;
+  color: white;
+}
+
+#company h4{
+  color: rgb(82, 240, 187);
+}
+
+#company ul {
+list-style: none;
+padding: 0;
+line-height: 2em;
+}
+
+#main-footer {
+  color: white;
+  background-color: rgb(82, 240, 187);
+  /* position: absolute; bottom: 0; left: 0; right: 0 */
+}
+
+
+/* ################## register ################################################################################################################## */
+
+
+#status {
+  color: white;
+  /* padding: 5px; */
+  margin: 5px 0 15px 0;
+  font-weight:bold;
+  color: red;
+}
+
+/* ################## webcam ################################################################################################################## */
+
+.videoObj {
+  border:12px solid #222;
+  background: #222;
+  height : 500px;
+  width: 650px;
+  margin: 0 auto;
+}
+
+#videoElmt {
+  margin: 0 auto;
+}
+
+#snapCnvas {
+  margin: 0 auto;
+}
+
+#saveortakenew {
+  display: inline-block;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  margin: 4px;
+}
+
+
+.image {
+  border:12px solid #222;
+  background: grey;
+  height : 500px;
+  width: 650px;
+}
+
+.filter {
+  width : 30%;
+  background-color:;
+  color: #000000;
+  margin: 2px;
+  /* text-align: center; */
+}
+
+#liste1{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  border:12px solid #222;
+  height: 400px;
+  overflow: auto;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#finalimg {
+  width : 650px;
+  height : 500px;
+  margin: 0 auto;
+}
+
+.imageinlist {
+  margin: 10px 50px;
+  width : 250px;
+  height : 150px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.imgandicons{
+  display: inline-block;
+}
+
+
+/* ################### GALLERY ###################  */
+.gallery {
+  margin: 10px 50px;
+  /* display: inline-block; */
+
+}
+
+.gallery .image {
+  width: 400px;
+  height: 350px;
+  transition: ls;
+  /* display: inline-block; */
+}
+
+.likes {
+  width: 5%;
+}
+
+.gallery img:hover{
+  transform: scale(1.2);
+}
+
+.imgandlikes{
+  margin: 5% auto;
+  width: 450px;
+  height: 500px;
+}
+
+.whole {
+  display: inline-block;
+
+}
